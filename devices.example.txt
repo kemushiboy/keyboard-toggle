@@ -1,0 +1,13 @@
+# Example devices.txt (Dell Alienware x15 R2).
+# Do not copy this as-is to other models: run "Detect Devices.bat" to create devices.txt for your PC.
+#
+# One device instance ID per line. Wildcards * and ? are allowed. Text after # is a comment.
+
+# Keyboard: HID Keyboard Device
+HID\VID_0D62&PID_BABC&COL03\*
+
+# Touchpad: HID-compliant touch pad
+HID\DELL0B27&COL02\*
+
+# Touchpad (mouse): HID-compliant mouse
+HID\DELL0B27&COL01\*

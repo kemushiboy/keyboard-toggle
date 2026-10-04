@@ -1,0 +1,7 @@
+# Per-PC settings (created by "Detect Devices.bat")
+devices.txt
+
+# Build output (release binaries are built by GitHub Actions)
+*.exe
+*.pdb
+*.zip

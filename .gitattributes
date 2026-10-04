@@ -1,0 +1,8 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Windows-only files keep CRLF line endings
+*.bat text eol=crlf
+*.cs text eol=crlf
+*.manifest text eol=crlf
+*.txt text eol=crlf
